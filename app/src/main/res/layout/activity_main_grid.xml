@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:layout_columnWeight="1"
+    >
+
+    <Button
+        android:id="@+id/btnLinearActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LinearLayout"
+        />
+
+    <Button
+        android:id="@+id/btnRelativeActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RelativeLayout" />
+
+    <Button
+        android:id="@+id/btnFrameActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FrameLayout" />
+
+    <Button
+        android:id="@+id/btnRecycler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recycler" />
+
+    <Button
+        android:id="@+id/btnRecylerAdapter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RecylerAdapter" />
+
+    <Button
+        android:id="@+id/btnBaseWidgets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BaseWidgets"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnSlidingMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SlidingMenu" />
+
+    <Button
+        android:id="@+id/btnCustomWidgets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CustomWidgets"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnFrag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TryFragment"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnAniActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AniLinearActivity"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnOptionMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MenuOptionActivity"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnSubMenuActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SubMenuActivity"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnContextMenuActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ContextMenuActivity"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnManyAniActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ManyAniActivity"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnCustomAniActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CustomAniActivity"
+        android:textAllCaps="false" />
+</GridLayout>

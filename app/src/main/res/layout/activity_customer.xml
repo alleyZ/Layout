@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:alleyz="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.alleyz.layout.customWidgets.MyView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        alleyz:mv_color="#aab"
+        alleyz:mv_text="配置de文字"
+        />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_skin"
+        android:text="Button"/>
+
+    <com.alleyz.layout.customWidgets.MyCircle
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>

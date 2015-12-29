@@ -1,0 +1,22 @@
+<UserList>
+    <UserInfo id="1">
+        <name>张三</name>
+        <age>67</age>
+        <sex>未知</sex>
+    </UserInfo>
+    <UserInfo id="2">
+        <name>李四</name>
+        <age>23</age>
+        <sex>女</sex>
+    </UserInfo>
+    <UserInfo id="3">
+        <name>王五</name>
+        <age>34</age>
+        <sex>男</sex>
+    </UserInfo>
+    <UserInfo id="4">
+        <name>傻逼</name>
+        <age>25</age>
+        <sex>一个傻逼</sex>
+    </UserInfo>
+</UserList>

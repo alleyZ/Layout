@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="CBP"
+        android:title="你喜欢吗？"
+        android:summaryOff="不喜欢"
+        android:summaryOn="喜欢"
+        ></CheckBoxPreference>
+    <EditTextPreference
+        android:key="ETP"
+        android:title="你的名字是？"
+        android:summary="写一下你的名字吧"
+        ></EditTextPreference>
+    <ListPreference
+        android:key="LP"
+        android:title="沉鱼落雁"
+        android:summary="下一句是？"
+        android:entries="@array/LP_E"
+        android:entryValues="@array/LP_E">
+    </ListPreference>
+    <SwitchPreference
+        android:key="SP"
+        android:title="switch "
+        android:summary="pleas switch"
+        android:switchTextOff="A"
+        android:switchTextOn="B">
+    </SwitchPreference>
+</PreferenceScreen>

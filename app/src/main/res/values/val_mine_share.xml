@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="LP_E">
+        <item >闭月羞花</item>
+        <item >美若天仙</item>
+        <item >静若处子</item>
+        <item >在水一方</item>
+        <item >我是白痴</item>
+    </string-array>
+    <string-array name="LP_EV">
+        <item >A</item>
+        <item >B</item>
+        <item >C</item>
+        <item >D</item>
+        <item >E</item>
+    </string-array>
+</resources>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.alleyz.layout" >
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.READ_CONTACTS"></uses-permission>
+
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:name="com.alleyz.net.volley.VolleyApplication">
+        <activity
+            android:name="com.alleyz.MainActivity"
+            android:label="@string/title_activity_main"
+             >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN"></action>
+                <category android:name="android.intent.category.LAUNCHER"></category>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".LinearLayout.LinearActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <!--android:windowSoftInputMode="adjustUnspecified|stateHidden"-->
+
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"></category>
+                <action android:name="com.alleyz.layout.intent.action.LinearActivity"></action>
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.alleyz.ui.RecyclerView.RecycleActivity">
+        </activity>
+
+        <activity android:name="com.alleyz.ui.RecyclerView.Recyler2Activity"></activity>
+
+        <activity android:name="com.alleyz.ui.widgets.WidgetsActivity"></activity>
+
+        <activity android:name="com.alleyz.ui.slidingMenu.SlidingMenuActivity"></activity>
+
+        <activity android:name=".customWidgets.CustomWidgetActivity"></activity>
+
+        <activity android:name=".fragment.TryFragActivity"></activity>
+
+        <activity android:name="com.alleyz.ui.animation.AniLinearActivity"></activity>
+
+        <activity android:name="com.alleyz.ui.menu.MenuOptionActivity"></activity>
+
+        <activity android:name="com.alleyz.ui.menu.SubMenuActivity"></activity>
+
+        <activity android:name="com.alleyz.ui.menu.ContextMenuActivity"></activity>
+
+        <activity android:name="com.alleyz.ui.animation.ManyAnimationActivity"></activity>
+
+        <activity android:name="com.alleyz.MainGridActivity"></activity>
+
+        <activity android:name="com.alleyz.ui.animation.CustomAnimationActivity"></activity>
+
+        <activity android:name="com.alleyz.ui.viewpager.ViewPagerActivity"></activity>
+
+        <activity android:name="com.alleyz.data.file.FileOptActivity"></activity>
+
+        <activity android:name="com.alleyz.data.share.ShareDataActivity"></activity>
+
+        <activity android:name="com.alleyz.data.share.MineSharePreferenceActivity"></activity>
+
+        <activity android:name="com.alleyz.data.sqlite.SQLiteActivity"></activity>
+
+        <activity android:name="com.alleyz.data.contentprovider.MyProviderActivity">
+            
+        </activity>
+        
+        <provider
+            android:exported="true"
+            android:authorities="com.alleyz.data.contentprovider.MyProvider"
+            android:name="com.alleyz.data.contentprovider.MyProvider"></provider>
+
+        <activity android:name="com.alleyz.data.xml.SimpleXmlActivity"></activity>
+
+        <activity android:name="com.alleyz.net.asyncTask.AsyncTaskActivity"></activity>
+
+        <activity android:name="com.alleyz.net.volley.VolleyActivity"></activity>
+    </application>
+
+</manifest>
